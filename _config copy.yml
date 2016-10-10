@@ -1,0 +1,36 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://biomadeira.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Owen Martin's Resume
+name: Owen Martin
+email: martin.owen22@gmail.com
+email_full: mailto:martin.owen22@gmail.com
+website: github.io/owingit
+website_full: https://owingit.github.io/
+github: trending
+twitter: twitter
+tel: +1 303-325-6880
+tel_full: +13033256880
+#google_maps: 'https://www.google.com/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address: 419 Boston Ave
+postcode: 02155
+city: Medford
+state: MA
+country: United States
+#google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
