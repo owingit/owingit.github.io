@@ -1,2 +1,3 @@
 name: Owen Martin, Questing Adventurer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
