@@ -6,7 +6,7 @@ layout: default
   {% for image in sorted_gallery %}
     <li>
       <a href="{{ image.link }}">
-        <img src="{{ image.image_path }}" alt="{{ image.title }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 200px; height: 200px;">
       </a>
     </li>
   {% endfor %}
