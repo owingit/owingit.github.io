@@ -11,7 +11,6 @@
 
 
 {% assign sorted_gallery = site.photo_gallery | sort: 'weight' %}
-<ul><div class="col-md-3" height: 500px>
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_gallery %}
       <a href="{{ image.link }}">
@@ -20,8 +19,7 @@
       </a>
       </div>
   {% endfor %}
-</ul>
-</div>
+
 </ul>
 
 
