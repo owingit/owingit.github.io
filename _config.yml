@@ -4,6 +4,7 @@ permalink: /blog/:year/:month/:day/:title
 
 baseurl: /
 baseurl_resume: /cv/
+baseurl_papers: /projects/pdfs/
 title: Owen Martin live on the internet
 name: Owen Martin
 tel: +1 3033256880
