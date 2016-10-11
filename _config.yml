@@ -12,3 +12,5 @@ website: owingit.github.io
 github: www.github.com/owingit
 twitter: lepurplemartin
 
+collections:
+  photo_gallery:
