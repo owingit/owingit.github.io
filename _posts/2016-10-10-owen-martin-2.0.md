@@ -8,4 +8,7 @@ For a long time now, I've been having ideas. Ideas about books to write; ideas a
 
 I'm going to be using this site as a sort of blog, sort of host for my resume, and sort of platform to share cool generative art pictures (like this one!) 
 ![Image of black-and-white pendulum trace](/images/clock_eye.png)      
-as I learn the process of Processing, as well as photographs from my time abroad, stretching forward into the oceanic unknown. Hopefully this is the beginning of the beginning of a life where I push myself a little bit harder. 
+as I learn the process of Processing, as well as photographs from my time abroad, stretching forward into the oceanic unknown. This may well be the beginning of the beginning of a life where I push myself a little bit harder. But there can be no doubt that this is the beginning of the beginning of a life where I start to examine the boundaries of consciousness, play with expression and doubt and randomness, and have some fun with it. 
+
+Cheers,
+your friendly neighborhood dragon
