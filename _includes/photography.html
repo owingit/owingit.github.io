@@ -11,16 +11,17 @@
 
 
 {% assign sorted_gallery = site.photo_gallery | sort: 'weight' %}
+<ul><div class="col-md-3" height: 500px>
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_gallery %}
-    <ul><div class="col-md-3">
       <a href="{{ image.link }}">
         <img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 40%; height: 40%;"></a></div>
         <div class="unreal"><a >{{image.title}}</a></div>
       </a>
       </div>
-    </ul>
   {% endfor %}
+</ul>
+</div>
 </ul>
 
 
