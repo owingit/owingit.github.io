@@ -1,12 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgb(48, 48, 48);
+    border-top: 5px solid #27a822;
+    border-bottom: 5px solid #27A822;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -21,7 +25,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 p {
     font-size: 1.5em;
