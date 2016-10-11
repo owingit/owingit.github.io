@@ -49,7 +49,7 @@ ul.posts li {
 }
 
 .project-title {
-    font-family: "Verdana";
+    position: center;
     text-shadow: horizontal-offset vertical-offset blur color;
 
 }
