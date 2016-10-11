@@ -54,7 +54,7 @@ ul.posts li {
 }
 
 #horizontal {
-    padding:20px;
+    padding:10px;
     border:dotted 1px;
     white-space:nowrap;
     overflow-x:auto;
