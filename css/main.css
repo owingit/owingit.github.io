@@ -61,6 +61,15 @@ ul.posts li {
 }
 
 .unreal {
+    position: right;
+}
 
-    
+
+#menu ul{
+    list-style: none;
+
+}
+
+#menu li{
+    display: inline;
 }
