@@ -49,6 +49,7 @@ ul.posts li {
 }
 
 .project-title {
-    font-family: "Times New Roman";
+    font-family: "Verdana";
+    text-shadow: horizontal-offset vertical-offset blur color;
 
 }
