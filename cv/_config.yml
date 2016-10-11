@@ -1,13 +1,12 @@
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /cv/:title
 
 
-baseurl: /
-title: Personal Website and Blog
+baseurl: /cv/
+title: Resume
 name: Owen Martin
 tel: +1 3033256880
 email: martin.owen22@gmail.com
 website: owingit.github.io
 github: www.github.com/owingit
 twitter: "@lepurplemartin"
-
