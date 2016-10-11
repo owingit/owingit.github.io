@@ -49,7 +49,6 @@ ul.posts li {
 }
 
 .project-title {
-    position: center;
     text-shadow: horizontal-offset vertical-offset blur color;
 
 }
