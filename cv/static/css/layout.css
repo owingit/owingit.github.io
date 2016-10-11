@@ -12,18 +12,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-nav ul, footer ul {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 21px;
-    color: rgb(48, 48, 48);
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
