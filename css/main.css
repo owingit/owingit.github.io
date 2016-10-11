@@ -6,9 +6,6 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
