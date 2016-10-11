@@ -47,3 +47,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.project-title {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+
+}
