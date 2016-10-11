@@ -3,6 +3,7 @@ permalink: /blog/:year/:month/:day/:title
 
 
 baseurl: /
+baseurl_resume: /cv/
 title: Personal Website and Blog
 name: Owen Martin
 tel: +1 3033256880
