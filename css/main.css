@@ -52,3 +52,10 @@ ul.posts li {
     text-shadow: horizontal-offset vertical-offset blur color;
 
 }
+
+#horizontal {
+    padding:20px;
+    border:dotted 1px;
+    white-space:nowrap;
+    overflow-x:auto;
+}
