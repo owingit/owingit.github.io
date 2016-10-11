@@ -15,7 +15,8 @@
   {% for image in sorted_gallery %}
     <ul>
       <a href="{{ image.link }}">
-        <img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 50%; height: 50%;">{{image.title}}
+        <img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 50%; height: 50%;">
+        <a {{image.title}}></a>
       </a>
     </ul>
   {% endfor %}
