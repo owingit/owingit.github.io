@@ -1,11 +1,15 @@
+<header>
+  <h1> Photography </h1>
+</header>
+
 {% assign sorted_gallery = site.photo_gallery | sort: 'weight' %}
 <ul class="photo-gallery">
   {% for image in sorted_gallery %}
-    <li>
+    <ul>
       <a href="{{ image.link }}">
         <img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 50%; height: 50%;">
       </a>
-    </li>
+    </ul>
   {% endfor %}
 </ul>
 

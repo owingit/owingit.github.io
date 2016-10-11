@@ -1,4 +1,4 @@
 ---
-image_path: /images/01.jpg
+image_path: /images/bridge.jpg
 title: Long Exposure - Szechenyi Bridge
 ---
