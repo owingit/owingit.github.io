@@ -56,6 +56,7 @@ ul.posts li {
 #horizontal {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 3px;
     border:dotted 1px;
     white-space:nowrap;
     overflow-x:auto;
@@ -68,23 +69,23 @@ ul.posts li {
 }
 
 .photo-gallery li {
-    /*overflow-x:auto;*/
+    overflow-x:auto;
     display: inline-block;
     height: 350px;
     width: 50%;
 }
-/*
+
 .photo-gallery li img {
     opacity: 1;
-  height: 350px;
+    height: 350px;
     width: 100%;
-}*/
+}
 
-/*.photo-gallery li img:hover {
+.photo-gallery li img:hover {
     position: relative;
     opacity: 0.3;
 
-}*/
+}
 
 .title{ z-index: 100;
   position: absolute;
