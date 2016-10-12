@@ -1,4 +1,4 @@
 ---
-image_path: /images/road.jpg
+image_path: /images/theroad.jpg
 title: invisible people, invisible cars.
 ---

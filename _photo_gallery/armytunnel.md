@@ -1,4 +1,4 @@
 ---
-image_path: /images/armytunnel.jpg
+image_path: /images/tunnel.jpg
 title: digging into the core of the world
 ---
