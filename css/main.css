@@ -74,14 +74,9 @@ ul.posts li {
     width: 50%;
 }
 
-.photo-gallery li img {
+.photo-gallery li img:hover span.poem {
     height: 350px;
     width: 100%;
 }
 
-.photo-gallery li span {
-    background-color: green;
-    position: center;
-    text-align: center;
 
-}
