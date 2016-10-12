@@ -82,12 +82,21 @@ ul.posts li {
 }
 
 
-.photo-gallery li img:hover {
+.photo-gallery li img:hover  {
     position: relative;
     opacity: 0.3;
 
 }
 
+.photo-gallery li p {
+    visibility: hidden;
+    text-align: center;
+}
+
+.photo-gallery li p:hover {
+    visibility: 1;
+    text-align: center;
+}
 
 
 
