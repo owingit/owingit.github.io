@@ -73,12 +73,12 @@ ul.posts li {
     height: 350px;
     width: 50%;
 }
-
+/*
 .photo-gallery li img {
-/*    opacity: 1;
-*/    height: 350px;
+    opacity: 1;
+  height: 350px;
     width: 100%;
-}
+}*/
 
 /*.photo-gallery li img:hover {
     position: relative;
