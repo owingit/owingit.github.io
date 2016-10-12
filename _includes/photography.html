@@ -10,21 +10,11 @@
 </header>
 
 
-<ul class="photo-gallery" id="horizontal">
-  {% for image in page.images %}
-  	<div id="menu">
-  		<ul>
-        	<li>
-        		<a href="{{ image.link }}">
-        		<img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 40%; height: 40%;">
-        		</a>
-        	 </li>
-<!--         	 <li style="position: center;">{{image.title}}</li>
- -->        </ul>
-     </div>
-
+{% assign sorted_photos = site.photo_gallery | sort: "weight" %}
+<ul class="photo-gallery">
+  {% for image in sorted_photos %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
   {% endfor %}
-
 </ul>
 
 
