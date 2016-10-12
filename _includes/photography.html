@@ -13,7 +13,7 @@
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_photos %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" height=350px; width=auto;class="poem">{{image.title}}/><span class="poem">{{image.title}}</span></li>
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" height=350px; width=auto;/><span class="poem">{{image.title}}</span></li>
     
 
   {% endfor %}
