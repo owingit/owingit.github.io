@@ -72,7 +72,6 @@ ul.posts li {
     overflow-x:auto;
     display: inline-block;
     height: 350px;
-    width: 50%;
 }
 
 .photo-gallery li img {
@@ -88,16 +87,6 @@ ul.posts li {
 
 }
 
-.photo-gallery li p {
-    visibility: hidden;
-    width: 60%;
-    text-align: center;
-}
-
-.photo-gallery li p:hover {
-    visibility: visible;
-    text-align: center;
-}
 
 
 
