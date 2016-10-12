@@ -1,4 +1,4 @@
 ---
 image_path: /images/abandonedtable.jpg
-title: Somebody was just eating here... I wonder what their story is
+title: a drink -- perhaps a pair of drinks --and the day whisks you away
 ---
