@@ -80,6 +80,7 @@ ul.posts li {
 }
 
 .photo-gallery li span {
+    background-color: green;
     position: center;
     text-align: center;
 
