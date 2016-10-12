@@ -74,9 +74,13 @@ ul.posts li {
     width: 50%;
 }
 
-.photo-gallery li:hover .poem img {
+.photo-gallery li img {
+    opacity: 1;
     height: 350px;
     width: 100%;
 }
 
+.photo-gallery li img:hover {
+    opacity: 0.3;
 
+}
