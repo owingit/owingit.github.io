@@ -71,7 +71,7 @@ ul.posts li {
     overflow-x:auto;
     display: inline-block;
     height: 350px;
-    width: 100%;
+    width: 50%;
 }
 
 .photo-gallery li img {
