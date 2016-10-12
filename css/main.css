@@ -66,11 +66,12 @@ ul.posts li {
 
 .photo-gallery li {
     overflow-x:auto;
+    overflow-y: auto;
     display: inline-block;
     height: 50%;
     width: 50%;
 }
 
 .photo-gallery li img {
-/*    width: 100%;
-*/}
+    width: 100%;
+}
