@@ -1,4 +1,5 @@
 ---
 image_path: /images/sunrise.jpg
-title: A sudden sensation of vastness.
+title: a sudden sensation of vastness
+
 ---

@@ -15,7 +15,8 @@
   {% for image in sorted_gallery %}
   	<div id="menu">
   		<ul>
-        	<li><a href="{{ image.link }}">
+        	<li>
+        		<a href="{{ image.link }}">
         		<img src="{{ image.image_path }}" alt="{{ image.title }}" style ="width: 40%; height: 40%;">
         		</a>
         	 </li>
