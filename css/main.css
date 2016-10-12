@@ -108,7 +108,7 @@ ul.posts li {
 }
 
 
-.photo-gallery:hover .poem {
+.photo-gallery li img:hover .poem {
   visibility: visible;
   opacity: 1;
 }
