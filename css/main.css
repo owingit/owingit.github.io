@@ -83,6 +83,8 @@ ul.posts li {
 
 .floated_img
 {
+    width: 50%;
+    height: 50%;
     float: left;
 }
 /*
