@@ -94,7 +94,7 @@ ul.posts li {
   width: 50%;
 }
 
-.imgDescription {
+.poem {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -113,7 +113,7 @@ ul.posts li {
 }
 
 
-.imgWrap:hover .imgDescription {
+.imgWrap:hover .poem {
   visibility: visible;
   opacity: 1;
 }
