@@ -1,4 +1,5 @@
 ---
 image_path: /images/rooftoppack.jpg
-title: Where are they going? Where did they come from? Were they ever here?
+title: We'd need a place to sleep.
+weight: 24
 ---

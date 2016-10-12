@@ -1,4 +1,5 @@
 ---
 image_path: /images/oldcar.jpg
-title: all things return to the earth
+title: All things return to the earth.
+weight: 1
 ---

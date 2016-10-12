@@ -1,4 +1,5 @@
 ---
 image_path: /images/sandbox.jpg
-title: Come, play a while.
+title: Playing in the twilight.
+weight: 27
 ---

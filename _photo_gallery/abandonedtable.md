@@ -1,4 +1,5 @@
 ---
 image_path: /images/abandonedtable.jpg
-title: a drink -- perhaps a pair of drinks --and the day whisks you away
+title: I could meet you for drinks, and talk about this for hours.
+weight: 16
 ---

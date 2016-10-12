@@ -1,4 +1,5 @@
 ---
 image_path: /images/theroad.jpg
-title: Invisible people, driving invisible cars.
+title: The whole city, vanished. An invisible city of invisible people driving invisible cars.
+weight: 8
 ---

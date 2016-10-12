@@ -1,4 +1,5 @@
 ---
 image_path: /images/graf.jpg
-title: sometimes they remain as art
+title: The only people left are painted.
+weight: 9
 ---

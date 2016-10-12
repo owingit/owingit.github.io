@@ -1,4 +1,5 @@
 ---
 image_path: /images/mmmm.jpg
-title: If nobody observes the beauty... is it still there?
+title: What happens then? Do the beautiful things still find ways to be beautiful?
+weight: 15
 ---

@@ -1,4 +1,4 @@
 ---
 image_path: /images/chairlake2.jpg
-title: Was it you in the chair?
+title: Was it you? In the chair, waiting for time to reveal itself?
 ---
