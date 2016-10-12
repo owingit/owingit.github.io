@@ -80,7 +80,7 @@ ul.posts li {
     width: 100%;
 }
 
-.photo-gallery li img:hover {
+.photo-gallery li img {
     position: relative;
     opacity: 0.3;
 
