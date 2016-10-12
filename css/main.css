@@ -71,10 +71,10 @@ ul.posts li {
     overflow-x:auto;
     display: inline-block;
     height: 300px;
-    width: 50%;
+    width: auto;
 }
 
 .photo-gallery li img {
     height: 300px;
-    width: 50%;
+    width: 100%;
 }
