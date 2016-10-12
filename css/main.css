@@ -75,6 +75,7 @@ ul.posts li {
 }
 
 .photo-gallery li img {
+    vertical-align: baseline;
     height: 50%;
     width: 100%;
 }
