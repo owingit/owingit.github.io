@@ -14,7 +14,9 @@
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_photos %}
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}" height=350px; width=auto;/></li>
-    <li>{{image.title}}</li>
+  {% endfor %}
+  {%for image in sorted_photos %}
+  <a>{{image.title}}</a>
   {% endfor %}
 </ul>
 
