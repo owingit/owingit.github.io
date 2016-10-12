@@ -68,6 +68,8 @@ ul.posts li {
 .photo-gallery li {
     overflow-x:auto;
     display: inline-block;
+    height: 50%;
+    width: 50%;
 }
 
 .photo-gallery li img {
