@@ -54,6 +54,7 @@ ul.posts li {
 }
 
 #horizontal {
+    display: block;
     border:dotted 1px;
     white-space:nowrap;
     overflow-x:auto;
@@ -66,8 +67,7 @@ ul.posts li {
 
 .photo-gallery li {
     overflow-x:auto;
-    overflow-y: auto;
-    display: inline-block;
+    display: block;
     height: 50%;
     width: 50%;
 }
