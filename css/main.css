@@ -90,28 +90,7 @@ ul.posts li {
 
 
 
-.poem {
-  position: absolute;
-  top: 70px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
 
-
-  visibility: hidden;
-  opacity: 0;
-
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
-}
-
-
-.photo-gallery li img:hover .poem {
-  visibility: visible;
-  opacity: 1;
-}
 
 
 /*
