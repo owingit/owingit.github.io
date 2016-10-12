@@ -1,4 +1,4 @@
-$('.photo-gallery li img')hover(
+$('img').hover(
     function(){
     	alert("hover called");
         $(this).css('opacity','.5');
