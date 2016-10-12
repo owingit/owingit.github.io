@@ -67,7 +67,6 @@ ul.posts li {
 
 .photo-gallery li {
     overflow-x:auto;
-    width: 50%;
     display: inline-block;
 }
 
