@@ -88,14 +88,11 @@ ul.posts li {
 
 }
 
-.imgWrap {
-  position: relative;
 
-}
 
 .poem {
   position: absolute;
-  top: 50px;
+  top: 70px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -111,7 +108,7 @@ ul.posts li {
 }
 
 
-.imgWrap:hover .poem {
+.photo-gallery:hover .poem {
   visibility: visible;
   opacity: 1;
 }
