@@ -81,6 +81,16 @@ ul.posts li {
 }
 
 .photo-gallery li img:hover {
+    position: relative;
     opacity: 0.3;
 
+}
+
+.title{ z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
 }
