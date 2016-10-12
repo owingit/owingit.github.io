@@ -10,21 +10,17 @@
 </header>
 
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
-<!-- <ul class="photo-gallery" id="horizontal">
+<ul class="photo-gallery" id="horizontal">
   {% for image in sorted_photos %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" hover = "hover()" onclick="window.open(this.src)" height=350px; width=auto;/></li>    
+    <li>
+    	<div class="imgWrap"><img src="{{ image.image_path }}" alt="{{ image.title}}" onclick="window.open(this.src)" height=350px; width=auto;/>
+    	<p class="poem">{{ image.title }}</p>
+    	</div>
+    </li>    
   {% endfor %}
 
-</ul> -->
-
-<ul class="photo-gallery">
-	{%for image in sorted_photos %}
-		<div class="floated_img">
-    		<img src="{{ image.image_path }}" alt="{{ image.title }}">
-    		<p>{{ image.title }}</p>
-    {% endfor %}
-	</div>
 </ul>
+
 
 
 

@@ -81,18 +81,44 @@ ul.posts li {
     width: 100%;
 }
 
-.floated_img
-{
-    width: 50%;
-    height: 50%;
-    float: left;
-}
-/*
+
 .photo-gallery li img:hover {
     position: relative;
     opacity: 0.3;
 
-}*/
+}
+
+.imgWrap {
+  position: relative;
+  height: 300px;
+  width: 50%;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 /*
 .title{ z-index: 100;
   position: absolute;
