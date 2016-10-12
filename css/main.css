@@ -54,6 +54,8 @@ ul.posts li {
 }
 
 #horizontal {
+    padding-top: 20px;
+    padding-bottom: 20px;
     border:dotted 1px;
     white-space:nowrap;
     overflow-x:auto;
@@ -61,7 +63,8 @@ ul.posts li {
 
 .photo-gallery, .photo-gallery li {
     list-style: none;
-    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .photo-gallery li {
