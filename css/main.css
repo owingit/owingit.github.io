@@ -74,7 +74,7 @@ ul.posts li {
     width: 50%;
 }
 
-.photo-gallery li img:hover span.poem {
+.photo-gallery li:hover .poem img {
     height: 350px;
     width: 100%;
 }
