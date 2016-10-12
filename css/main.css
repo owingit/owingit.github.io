@@ -79,7 +79,8 @@ ul.posts li {
     width: 100%;
 }
 
-.photo-gallery .poem {
+.poem:hover {
+    position: center;
     text-align: center;
 
 }
