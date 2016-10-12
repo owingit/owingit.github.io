@@ -75,16 +75,16 @@ ul.posts li {
 }
 
 .photo-gallery li img {
-    opacity: 1;
-    height: 350px;
+/*    opacity: 1;
+*/    height: 350px;
     width: 100%;
 }
 
-.photo-gallery li img:hover {
+/*.photo-gallery li img:hover {
     position: relative;
     opacity: 0.3;
 
-}
+}*/
 
 .title{ z-index: 100;
   position: absolute;
