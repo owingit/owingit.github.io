@@ -78,3 +78,8 @@ ul.posts li {
     height: 350px;
     width: 100%;
 }
+
+#poem {
+    display: below;
+
+}
