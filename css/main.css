@@ -70,12 +70,12 @@ ul.posts li {
 .photo-gallery li {
     overflow-x:auto;
     display: inline-block;
-    height: 50%;
+    height: 300px;
     width: 50%;
 }
 
 .photo-gallery li img {
     vertical-align: baseline;
-    height: 50%;
+    height: 300px;
     width: 100%;
 }
