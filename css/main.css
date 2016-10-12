@@ -61,11 +61,11 @@ ul.posts li {
 }
 
 
-#menu ul a{
+#menu ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
-#menu li a{
+#menu li{
   display: inline-block;
 }
