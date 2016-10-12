@@ -70,11 +70,11 @@ ul.posts li {
 .photo-gallery li {
     overflow-x:auto;
     display: inline-block;
-    height: 300px;
-    width: 50%;
+    height: 350px;
+    width: inherit;
 }
 
 .photo-gallery li img {
-    height: 300px;
+    height: 350px;
     width: 100%;
 }
