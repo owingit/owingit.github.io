@@ -78,7 +78,7 @@ ul.posts li {
 .photo-gallery li img {
     opacity: 1;
     height: 350px;
-    width: 100%;
+    width: auto;
 }
 
 

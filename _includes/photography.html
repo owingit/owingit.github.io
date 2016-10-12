@@ -13,7 +13,7 @@
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_photos %}
     <li>
-    	<img src="{{ image.image_path }}" alt="{{ image.title}}" onclick="window.open(this.src)" height=350px; width=auto;/>
+    	<img src="{{ image.image_path }}" alt="{{ image.title}}" onclick="window.open(this.src)" />
     	<p>{{ image.title}}</p>
     </li>    
   {% endfor %}
