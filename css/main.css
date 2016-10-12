@@ -80,13 +80,13 @@ ul.posts li {
     height: 350px;
     width: 100%;
 }
-
+/*
 .photo-gallery li img:hover {
     position: relative;
     opacity: 0.3;
 
-}
-
+}*/
+/*
 .title{ z-index: 100;
   position: absolute;
   color: black;
@@ -94,4 +94,4 @@ ul.posts li {
   font-weight: bold;
   left: 150px;
   top: 350px;
-}
+}*/
