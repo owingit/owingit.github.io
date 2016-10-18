@@ -67,6 +67,7 @@ ul.posts li {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 20px;
+    overflow-y: hidden;
 }
 
 .photo-gallery li {
