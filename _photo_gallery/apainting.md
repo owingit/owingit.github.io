@@ -1,5 +1,5 @@
 ---
-image_path: /images/painting.jpg
+image_path: /images/apainting.jpg
 title: Or perhaps for something more substantial.
 weight: 16
 ---
