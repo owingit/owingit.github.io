@@ -1,5 +1,5 @@
 ---
 image_path: /images/graf.jpg
 title: The only people left are painted.
-weight: 9
+weight: 10
 ---
