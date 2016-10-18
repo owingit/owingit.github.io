@@ -2,4 +2,19 @@
   <h1> Generative Art </h1>
 </header>
 
-<img src= "/images/clock_eye.png" alt="pendulum clock eye">
+<header>
+  <h4 class = "project-title"> interminable dance</h4>	
+  	<h6>
+		these images were generated as the result of a double-rod pendulum simulation that I created. i provide the initial positions, masses, and lengths of the pendulums, and the path that they take is dependent solely on their previous states. it's a deterministically random process, and no two pendulum paths are ever the same.
+	</h6>
+</header>
+
+{% assign sorted_art = site.pendulum_gallery | sort: "weight" %}
+<ul class="photo-gallery" id="horizontal">
+  {% for pendulum in sorted_art %}
+    <li>
+    	<img src=" {{ pendulum.image_path }}" alt="{{ pendulum.title }}" title="{{ pendulum.title }}" onclick="window.open(this.src)" />
+    </li>    
+  {% endfor %}
+
+</ul>
