@@ -1,5 +1,5 @@
 ---
 image_path: /images/benchshelter.jpg
-title: A lonely bus.
+title: I have a bus to catch.
 weight: 19
 ---

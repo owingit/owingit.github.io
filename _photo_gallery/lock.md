@@ -1,5 +1,5 @@
 ---
-image_path: /images/lock.jpg
+image_path: /images/mzlock.jpg
 title: Do they ever gain a permanence?
-weight: 16
+weight: 15
 ---

@@ -1,5 +1,5 @@
 ---
 image_path: /images/hiddenshirt.jpg
-title: I have a bus to catch.
+title: A lonely bus without a driver.
 weight: 19
 ---
