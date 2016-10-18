@@ -60,6 +60,7 @@ ul.posts li {
     border:dotted 1px;
     white-space:nowrap;
     overflow-x:auto;
+    overflow-y:hidden;
 }
 
 .photo-gallery, .photo-gallery li {
