@@ -1,6 +1,6 @@
 ️---
 layout: post
-title: "An abroad post of sorts"
+title: "Thoughts from Budapest"
 date: 2016-10-20
 ---
 
