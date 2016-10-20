@@ -1,6 +1,6 @@
 ️---
 layout: post
-title: "An abroad blog post of sorts"
+title: "An abroad post of sorts"
 date: 2016-10-19
 ---
 
