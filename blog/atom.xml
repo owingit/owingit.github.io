@@ -14,12 +14,12 @@ layout: feed
 		<email>martin.owen22@gmail.com</email>
 	</author>
 
-	{% for page in site.posts %}
+	{% for post in site.posts %}
 		<entry>
-			<title>{{ page.title }}</title>
+			<title>{{ post.title }}</title>
 			<link href="http://owingit.github.io{{ post.url }}"/>
-			<updated>{{ page.date | date_to_xmlschema }}</updated>
-			<id>http://owingit.github.io/{{ page.id }}</id>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://owingit.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
