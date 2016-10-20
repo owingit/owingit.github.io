@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is this the beginning of the beginning?"
+title: Is this the beginning of the beginning?
 date: 2016-10-10
 ---
 
