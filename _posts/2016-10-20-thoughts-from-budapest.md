@@ -17,7 +17,7 @@ In the chapters since I've last written to you all, the slow creep of schoolwork
 To add to the workload, I've simultaneously been trying to expand on different interests and pieces of myself. A couple of weeks ago my friend Simon introduced me to a fun and interesting development environment called Processing, which allows you to build and view graphics simulations of physical phenomena in real time. I became obsessed fairly quickly, and built myself a double-rod pendulum simulator, something I'm fascinated with because of the underlying chaos theory involved with its movement. This has let me generate some pretty incredible images, which is an art process called "Generative Art" (see 
 [here](http://owingit.github.io/projects){:target="_blank"})
 for some cool examples!). Essentially, the gist of generative art is that you create the initial conditions for a deterministically random system, then let the physics run its course. It's kind of amazing, in my eyes. Each new image that I churn out baffles me with its unique beauty, and I'm playing with all different kinds of colors and shapes and pendulum lengths and things to see where this chaotic, dancing system takes me. I also built, with the help of my friend Ben Machlin, a cool system that generates images that look to me like water drainage systems, similar to canyons. 
-![Canyon art](/images/canyon.tif){:target="_blank"}
+![Canyon art](/images/canyon.jpg){:target="_blank"}
 Pretty nifty.
 
 
