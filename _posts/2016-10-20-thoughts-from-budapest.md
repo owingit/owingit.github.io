@@ -3,7 +3,32 @@ layout: post
 title: "Thoughts from Budapest"
 date: 2016-10-20
 ---
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Is this the beginning of the beginning?</title>
+			<!-- link to main stylesheet -->
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script type="text/javascript" src="/js/hover.js"></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/projects">Projects</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			<h1>Is this the beginning of the beginning?</h1>
+<p class="meta">10 Oct 2016</p>
 
+<div class="post">
 Ciao amici!
 
 Hungary for more? I might have a story or two for you.
@@ -42,3 +67,15 @@ However, the most important thing to consider is we have time. A happy and compl
 
 Cheers,
 Owen
+
+</div>
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:martin.owen22@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/owingit">github</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
