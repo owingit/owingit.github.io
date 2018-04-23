@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
 
-/*nav ul, footer ul {
+nav ul, footer ul {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
@@ -11,7 +11,7 @@
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}*/
+}
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
