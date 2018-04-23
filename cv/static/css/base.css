@@ -265,11 +265,11 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-/*
+
 nav ul {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
     border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822; */
+    border-bottom: 5px solid #27A822; 
