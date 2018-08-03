@@ -1,4 +1,5 @@
 markdown: kramdown
+remote_theme: leonids
 permalink: /blog/:year/:month/:day/:title
 
 baseurl: /
