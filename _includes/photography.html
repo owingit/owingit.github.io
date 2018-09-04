@@ -13,7 +13,7 @@
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
   {% for image in sorted_photos %}
     <li>
-    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="window.open({{ image.image_path }})" />
+    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="window.open(this.src)" />
     </li>    
   {% endfor %}
 
