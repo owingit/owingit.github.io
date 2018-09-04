@@ -1,6 +1,5 @@
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
 baseurl: /
 baseurl_resume: /cv/
 baseurl_papers: /art/pdfs
