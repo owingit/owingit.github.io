@@ -20,9 +20,9 @@
 </ul>
 
 <div id="myModal" class="modal">
+  {% for image in sorted_photos %}
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
-  {% for image in sorted_photos %}
     <div class="mySlides">
       <div class="numbertext">{{ image.weight }} / 44</div>
       <img src=" {{ image.image_path }}" style="width:100%">
