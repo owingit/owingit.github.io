@@ -10,6 +10,10 @@
 </header>
 
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
+{% assign len = 0}
+{% for image in sorted_photos %}
+    {% len++ }
+len
 <ul class="photo-gallery" id="horizontal">
   {% for image in sorted_photos %}
     <li>
