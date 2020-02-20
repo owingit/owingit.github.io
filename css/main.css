@@ -129,6 +129,7 @@ ul.posts li {
     animation: fade linear infinite 40s;
     position: absolute;
     text-align: center;
+    justify-content: center;
     font-size: 0.8rem;
     line-height: 1rem;
     overflow: hidden;
