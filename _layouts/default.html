@@ -44,9 +44,9 @@
 					  } else {
 					  	nav.classList.remove("sticky");
 					  }
-					  if nav.classList.contains("sticky") {
+					  if (nav.classList.contains("sticky")) {
 						var footerUL = document.getElementById("myFooter");
-						for i = 1; i < 5; i++ {
+						for (i = 1; i < 5; i++) {
 							var li = document.getElementById("" + i);
 							footerUL.appendChild(li);
 						}
