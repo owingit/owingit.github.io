@@ -98,7 +98,13 @@ ul.posts li {
 
 @media screen and (max-width: 768px) {
     .content-desktop {display: none;}
-    .content-mobile {display: block;}
+    .content-mobile {display: flex;
+                     position: relative;
+                     width: 100%;
+                     height: 100vh;
+                     align-items: center;
+                     justify-content: center;
+                     overflow: hidden;}
 }
 
 #video_box {
