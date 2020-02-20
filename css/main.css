@@ -62,6 +62,11 @@ ul.posts li {
     overflow-y:hidden;
 }
 
+#video_box {
+    height: 80%;
+    width: auto;
+}
+
 .photo-gallery, .photo-gallery li {
     list-style: none;
     padding-top: 10px;
@@ -84,11 +89,7 @@ ul.posts li {
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-  margin: auto;
   position: fixed;
-  border-top: none;
-  border-bottom: none;
-  top: 0;
   opacity: 10%;
   width: 70%
 }
