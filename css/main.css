@@ -136,8 +136,37 @@ ul.posts li {
     line-height: 1rem;
 }
 
+.js-nametag:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.js-nametag:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.js-nametag:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.js-nametag:nth-child(5) {
+    animation-delay: 20s;
+}
+
+.js-nametag:nth-child(6) {
+    animation-delay: 25s;
+}
+
+.js-nametag:nth-child(7) {
+    animation-delay: 30s;
+}
+
+.js-nametag:nth-child(8) {
+    animation-delay: 15s;
+}
+
 @keyframes fade{
     0% {
+        animation-timing-function: ease-in;
         opacity: 1;
     }
     12.5% {
