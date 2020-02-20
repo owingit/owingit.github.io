@@ -2,6 +2,7 @@
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
+    margin: auto;
     width: 70%;
 }
 nav ul, footer ul {
