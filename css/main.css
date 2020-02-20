@@ -125,7 +125,9 @@ ul.posts li {
 }
 
 .js-nametag{
-  position: absolute;
+    position: absolute;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 .js-nametag:nth-child(1){
   animation-name: fade;
