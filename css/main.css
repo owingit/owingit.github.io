@@ -86,8 +86,8 @@ ul.posts li {
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  border-top: 0px;
-  border-bottom: 0px;
+  border-top: none;
+  border-bottom: none;
   top: 5px;
   opacity: 20%;
   width: 70%
