@@ -94,7 +94,7 @@ ul.posts li {
   width: 70%
 }
 
-.sticky + .container {
+.sticky {
   padding-top: 102px;
 }
 
