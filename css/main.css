@@ -87,6 +87,12 @@ ul.posts li {
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
+  width: 70%
+}
+
+.white-background {
+   opacity: 100%;
+   color: rgb(255, 255, 255)
 }
 
 /*.photo-gallery li img:hover  {
