@@ -126,14 +126,12 @@ ul.posts li {
 
 .js-nametag{
     opacity: 0;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: normal;
+    animation: fade linear infinite 40s;
     position: absolute;
     text-align: center;
     font-size: 0.8rem;
     line-height: 1rem;
+    overflow: hidden;
 }
 
 .js-nametag:nth-child(2) {
@@ -168,7 +166,11 @@ ul.posts li {
     0% {
         animation-timing-function: ease-in;
         opacity: 1;
+        height: 0px;
     }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	33% { opacity: 0; height: 60px; }
     100% {
       opacity: 0;
     }
