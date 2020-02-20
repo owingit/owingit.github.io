@@ -13,10 +13,10 @@
 		<body>
 			<nav id="myNav">
 	    		<ul id="myNav">
-	        		<li id="1"><a href="/">Home</a></li>
-		        	<li id="2"><a href="/art">Art</a></li>
-	        		<li id="3"><a href="/cv">CV</a></li>
-	        		<li id="4"><a href="/blog">Writing</a></li>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/art">Art</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Writing</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
@@ -26,12 +26,16 @@
 			</div><!-- /.container -->
 	        	<footer>
 	    		        <ul id="myFooter">
+							<li id="1"><a href="/">Home</a></li>
+							<li id="2"><a href="/art">Art</a></li>
+							<li id="3"><a href="/cv">CV</a></li>
+							<li id="4"><a href="/blog">Writing</a></li>
 	        		        <li><a href="https://github.com/owingit" target="_blank">github</a></li>
 				        	<li><a href="https://linkedin.com/in/owen-martin-6009a283/" target="_blank">linkedIn</a>
                             <li><a href="https://twitter.com/{{ site.twitter }}" target="_blank">twitter</a>
 							<li><a href="https://instagram.com/{{ site.instagram }}" target="_blank">instagram</a>
 		                </ul>
-			</footer>
+				</footer>
 			<script>
 					window.onscroll = function() {myFunction()};
 
@@ -41,19 +45,8 @@
 					function myFunction() {
 					  if (window.pageYOffset > sticky) {
 						nav.classList.add("sticky");
-						var footerUL = document.getElementById("myFooter");
-						for (i = 1; i < 5; i++) {
-							var li = document.getElementById("" + i);
-							footerUL.appendChild(li);
-						}
 					  } else {
 					  	nav.classList.remove("sticky");
-						var footerUL = document.getElementById("myFooter");
-						for (i = 1; i < 5; i++) {
-							var li = document.getElementById("" + i);
-							footerUL.removeChild(li);
-							nav.appendChild(li);
-						}
 					  }
 					}
 			</script>

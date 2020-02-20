@@ -94,11 +94,6 @@ ul.posts li {
   width: 70%
 }
 
-#1, #2, #3, #4, {
-    display: inline;
-    margin-right: 20px;
-}
-
 /*.photo-gallery li img:hover  {
     position: relative;
     opacity: 0.3;
