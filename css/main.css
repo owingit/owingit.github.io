@@ -10,6 +10,7 @@ nav ul, footer ul {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
+    text-align: center
 }
 nav ul li, footer ul li {
     display: inline;
@@ -92,7 +93,7 @@ ul.posts li {
   width: 70%
 }
 
-.sticky {
+.sticky + .container {
   padding-top: 102px;
 }
 
