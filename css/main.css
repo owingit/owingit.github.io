@@ -102,12 +102,11 @@ ul.posts li {
   overflow: hidden;
 }
 
-.video_section h2 {
-  z-index: 3;
-  text-align: center;
-  opacity: 0.7;
-  font-size: 2rem;
-  padding: 20px;
+.video_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 
