@@ -93,7 +93,7 @@ ul.posts li {
 }
 
 .video_box {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -102,9 +102,10 @@ ul.posts li {
   overflow: hidden;
 }
 
-.video_box h1, h2{
-  text-align: center;
+.video_box h2 {
   z-index: 1;
+  text-align: center;
+  font-size: 4rem;
 }
 
 /*.photo-gallery li img:hover  {
