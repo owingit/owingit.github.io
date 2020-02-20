@@ -90,16 +90,8 @@ ul.posts li {
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  opacity: 10%;
+  opacity: 0%;
   width: 70%
-}
-
-.sticky {
-  padding-top: auto;
-}
-
-.sticky:hover {
-   opacity: 70%
 }
 
 /*.photo-gallery li img:hover  {
