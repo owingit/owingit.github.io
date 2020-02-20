@@ -86,7 +86,6 @@ ul.posts li {
     width: auto;
 }
 
-
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   opacity: 0%;

@@ -41,16 +41,34 @@
 		                </ul>
 				</footer>
 			<script>
-					window.onscroll = function() {myFunction()};
+					window.onscroll = function() {setSticky()};
 
 					var nav = document.getElementById("myNav")
 					var sticky = nav.offsetTop;
 
-					function myFunction() {
+					function setSticky() {
 					  if (window.pageYOffset > sticky) {
 						nav.classList.add("sticky");
+						for (i = 1; i < 5; i++) {
+					      var li = document.getElementById("" + i);
+					      li.style.display = "inline";
+					    }
 					  } else {
 					  	nav.classList.remove("sticky");
+					  	for (i = 1; i < 5; i++) {
+					      var li = document.getElementById("" + i);
+					      li.style.display = "none";
+					    }
+					  }
+					}
+
+					window.onload = function() {hideBar()};
+					function hideBar() {
+					  if (!nav.classList.contains("sticky")) {
+					    for (i = 1; i < 5; i++) {
+					      var li = document.getElementById("" + i);
+					      li.style.display = "none";
+					    }
 					  }
 					}
 			</script>
