@@ -131,7 +131,7 @@ ul.posts li {
   animation-name: fade;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-direction: alternate-reverse;
 }
 
@@ -140,7 +140,7 @@ ul.posts li {
   animation-name: fade;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-direction: alternate;
 }
 
