@@ -163,9 +163,6 @@ ul.posts li {
     animation-delay: 35s;
 }
 
-.js-nametag:nth-child(8) {
-    animation-delay: 40s;
-}
 
 @keyframes fade{
     0% {
