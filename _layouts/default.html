@@ -26,14 +26,14 @@
 				<script>
 					window.onscroll = function() {myFunction()};
 
-					var header = document.getElementById("myHeader");
-					var sticky = header.offsetTop;
+					var nav = document.getElementById("nav");
+					var sticky = nav.offsetTop;
 
 					function myFunction() {
 					  if (window.pageYOffset > sticky) {
-						header.classList.add("sticky");
+						nav.classList.add("sticky");
 					  } else {
-						header.classList.remove("sticky");
+						nav.classList.remove("sticky");
 					  }
 					}
 				</script>
