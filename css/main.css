@@ -94,8 +94,8 @@ ul.posts li {
   width: 70%
 }
 
-.sticky {
-  padding-top: 102px;
+.sticky + .container {
+  padding-top: auto;
 }
 
 .sticky:hover {
