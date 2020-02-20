@@ -8,7 +8,6 @@ body {
 nav ul, footer ul {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    opacity: 100%;
     line-height: 21px;
     color: rgb(48, 48, 48);
     border-top: 5px solid #27a822;
@@ -91,7 +90,6 @@ ul.posts li {
 }
 
 .white-background {
-   opacity: 100%;
    color: rgb(255, 255, 255);
    margin: 0px;
    margin-block-start: 0px;
