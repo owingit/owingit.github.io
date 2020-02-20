@@ -126,7 +126,7 @@ ul.posts li {
 
 .js-nametag{
     opacity: 0;
-    animation: fade linear infinite 40s;
+    animation: fade linear infinite 35s;
     position: absolute;
     text-align: center;
     justify-content: center;
