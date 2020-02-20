@@ -126,7 +126,8 @@ ul.posts li {
 
 .js-nametag{
     position: absolute;
-    font-size: 0.75rem;
+    text-align: center;
+    font-size: 0.8rem;
     line-height: 1rem;
 }
 .js-nametag:nth-child(1){
@@ -134,7 +135,7 @@ ul.posts li {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-duration: 5s;
-  animation-direction: alternate-reverse;
+  animation-direction: normal;
 }
 
 
@@ -143,7 +144,55 @@ ul.posts li {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-duration: 5s;
-  animation-direction: alternate;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(3){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(4){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(5){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(6){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(7){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+.js-nametag:nth-child(8){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
 }
 
 @keyframes fade{
