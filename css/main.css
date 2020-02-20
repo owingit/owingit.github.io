@@ -91,9 +91,7 @@ ul.posts li {
 
 .white-background {
    color: rgb(255, 255, 255);
-   margin: 0px;
-   margin-block-start: 0px;
-   margin-block-end:0px;
+   opacity: 100%
 }
 
 /*.photo-gallery li img:hover  {
