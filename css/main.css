@@ -92,6 +92,16 @@ ul.posts li {
   width: 70%
 }
 
+#video_box {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 /*.photo-gallery li img:hover  {
     position: relative;
     opacity: 0.3;
