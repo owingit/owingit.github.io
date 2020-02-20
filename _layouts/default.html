@@ -63,6 +63,7 @@
 					}
 
 					window.onload = function() {hideBar()};
+					window.onload = setTimeout(loadName, 3000);
 					function hideBar() {
 					  if (!nav.classList.contains("sticky")) {
 					    for (i = 1; i < 5; i++) {
@@ -71,6 +72,8 @@
 					    }
 					  }
 					}
+					function loadName() {
+					  var name = document.getElementById("myName");
 			</script>
 		</body>
 	</html>

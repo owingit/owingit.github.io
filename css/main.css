@@ -103,6 +103,11 @@ ul.posts li {
   overflow: hidden;
 }
 
+#myName {
+  z-index: 4;
+  position: absolute;
+}
+
 
 
 
