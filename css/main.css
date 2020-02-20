@@ -134,32 +134,36 @@ ul.posts li {
     overflow: hidden;
 }
 
-.js-nametag:nth-child(2) {
+.js-nametag:nth-child(1) {
     animation-delay: 5s;
 }
 
-.js-nametag:nth-child(3) {
+.js-nametag:nth-child(2) {
     animation-delay: 10s;
 }
 
-.js-nametag:nth-child(4) {
+.js-nametag:nth-child(3) {
     animation-delay: 15s;
 }
 
-.js-nametag:nth-child(5) {
-    animation-delay: 20s;
+.js-nametag:nth-child(4) {
+    animation-delay: 12s;
 }
 
-.js-nametag:nth-child(6) {
+.js-nametag:nth-child(5) {
     animation-delay: 25s;
 }
 
-.js-nametag:nth-child(7) {
+.js-nametag:nth-child(6) {
     animation-delay: 30s;
 }
 
-.js-nametag:nth-child(8) {
+.js-nametag:nth-child(7) {
     animation-delay: 35s;
+}
+
+.js-nametag:nth-child(8) {
+    animation-delay: 40s;
 }
 
 @keyframes fade{
@@ -170,7 +174,7 @@ ul.posts li {
     }
     8% { opacity: 1; height: 60px; }
     19% { opacity: 1; height: 60px; }
-	33% { opacity: 0; height: 60px; }
+	25% { opacity: 0; height: 60px; }
     100% {
       opacity: 0;
     }
