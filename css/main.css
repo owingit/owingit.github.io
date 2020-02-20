@@ -161,34 +161,13 @@ ul.posts li {
 }
 
 .js-nametag:nth-child(8) {
-    animation-delay: 15s;
+    animation-delay: 35s;
 }
 
 @keyframes fade{
     0% {
         animation-timing-function: ease-in;
-        opacity: 1;
-    }
-    12.5% {
-      opacity: 1;
-    }
-    25% {
-      opacity: 1;
-    }
-    37.5% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 1;
-    }
-    62.5% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    87.5% {
-      opacity: 1;
+        opacity: 0;
     }
     100% {
       opacity: 1;
