@@ -103,7 +103,7 @@ ul.posts li {
 }
 
 .video_box h2 {
-  z-index: 1;
+  z-index: 3;
   text-align: center;
   font-size: 4rem;
 }
