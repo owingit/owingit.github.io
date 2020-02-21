@@ -4,7 +4,7 @@ title: Excerpt from 'One Long Dream', Ch. 12
 date: 2020-02-21
 ---
 
-To Behave The Way Everyone Does
+<h2>To Behave The Way Everyone Does</h2>
 
 **“Have you ever seen bugs trapped in amber?" "Yes." Billy, in fact, had a paperweight in his office which was a blob of polished amber with three lady-bugs embedded in it. "Well, here we are, Mr. Pilgrim, trapped in the amber of this moment. There is no why.”**
 *–Kurt Vonnegut, Slaughterhouse-Five*
