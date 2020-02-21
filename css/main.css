@@ -196,7 +196,7 @@ ul.posts li {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
 }
 
 /* The Modal (background) */
