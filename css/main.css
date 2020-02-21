@@ -293,6 +293,8 @@ ul.posts li {
 }
 
 img.thumb {
+  max-width: 100%;
+  height: auto;
   opacity: 0.6;
 }
 
@@ -303,7 +305,7 @@ img.thumb {
 
 img.hover-shadow {
   transition: 0.3s;
-  width: 25%;
+  max-width: 100%;
   height: auto;
 }
 
