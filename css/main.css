@@ -303,6 +303,8 @@ img.thumb {
 
 img.hover-shadow {
   transition: 0.3s;
+  width: 25%;
+  height: auto;
 }
 
 .hover-shadow:hover {
