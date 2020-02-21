@@ -216,7 +216,8 @@ ul.posts li {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   padding: 0;
   width: 80%;
