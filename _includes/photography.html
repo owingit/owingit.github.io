@@ -13,7 +13,7 @@
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
   {% for image in sorted_photos %}
     <li class="column">
-    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="openModal(); currentSlide(forloop.index)"/>
+    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="openModal();currentSlide(forloop.index)"/>
     </li>    
   {% endfor %}
 
@@ -28,6 +28,8 @@
         <div class="mySlides">
             <img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" style="width:100%">
         </div>
+      {% endfor %}
+
 
     <!-- Next/previous controls -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -39,6 +41,7 @@
          <div class="column">
             <img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="currentSlide(forloop.index)" class="imageSlide">
          </div>
+      {% endfor %}
   </div>
 </div>
 
