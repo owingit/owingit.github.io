@@ -9,12 +9,213 @@
 	</h6>
 </header>
 
-{% assign sorted_art = site.pendulum_gallery | sort: "weight" %}
-<ul class="photo-gallery" id="horizontal">
-  {% for pendulum in sorted_art %}
-    <li>
-    	<img src=" {{ pendulum.image_path }}" alt="{{ pendulum.title }}" title="{{ pendulum.title }}" onclick="window.open(this.src)" />
-    </li>    
-  {% endfor %}
+<div class="row">
+  <div class="column">
+    <img src="../images/american_kestrel-min.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/belted_kingfisher-min.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/barn_swallow-min.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/american_oystercatcher-min.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="../images/burrowing_owl-min.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/rainbow_bee_eater-min.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/horned_puffin-min.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/lazuli_bunting-min.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="../images/northern_harrier-min.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/great_blue_heron-min.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/stellars_jay-min.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../images/violet_bellied_hummingbird-min.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+</div>
 
-</ul>
+<div id="myModal2" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content2">
+    <div class="mySlides2">
+      <div class="numbertext">1 / 12</div>
+      <img src="../images/american_kestrel-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">2 / 12</div>
+      <img src="../images/belted_kingfisher-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">3 / 12</div>
+      <img src="../images/barn_swallow-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">4 / 12</div>
+      <img src="../images/american_oystercatcher-min.jpg" class="inner_image">
+    </div>
+      <div class="mySlides2">
+      <div class="numbertext">5 / 12</div>
+      <img src="../images/burrowing_owl-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">6 / 12</div>
+      <img src="../images/rainbow_bee_eater-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">7 / 12</div>
+      <img src="../images/horned_puffin-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">8 / 12</div>
+      <img src="../images/lazuli_bunting-min.jpg" class="inner_image">
+    </div>
+      <div class="mySlides2">
+      <div class="numbertext">9 / 12</div>
+      <img src="../images/northern_harrier-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">10 / 12</div>
+      <img src="../images/great_blue_heron-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">11 / 12</div>
+      <img src="../images/stellars_jay-min.jpg" class="inner_image">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">12 / 12</div>
+      <img src="../images/violet_bellied_hummingbird-min.jpg" class="inner_image">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="row">
+      <div class="column">
+        <img class="thumb" src="../images/american_kestrel-min.jpg" onclick="currentSlide(1)" alt="Falco sparverius">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/belted_kingfisher-min.jpg" onclick="currentSlide(2)" alt="Haematopus palliatus">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/barn_swallow-min.jpg" onclick="currentSlide(3)" alt="Hirundo rustica">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/american_oystercatcher-min.jpg" onclick="currentSlide(4)" alt="Megaceryle alcyon">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="thumb" src="../images/burrowing_owl-min.jpg" onclick="currentSlide(5)" alt="Athene cunicularia">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/rainbow_bee_eater-min.jpg" onclick="currentSlide(6)" alt="Ardea herodias">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/horned_puffin-min.jpg" onclick="currentSlide(7)" alt="Fratercula corniculata">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/lazuli_bunting-min.jpg" onclick="currentSlide(8)" alt="Passerina amoena">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="thumb" src="../images/northern_harrier-min.jpg" onclick="currentSlide(9)" alt="Circus hudsonius">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/great_blue_heron-min.jpg" onclick="currentSlide(10)" alt="Merops ornatus">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/stellars_jay-min.jpg" onclick="currentSlide(11)" alt=" Cyanocitta stelleri">
+      </div>
+
+      <div class="column">
+        <img class="thumb" src="../images/violet_bellied_hummingbird-min.jpg" onclick="currentSlide(12)" alt="Damophila julie">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    // Open the Modal
+    function openModal() {
+      document.getElementById("myModal2").style.display = "block";
+    }
+
+    // Close the Modal
+    function closeModal() {
+      document.getElementById("myModal2").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides2");
+      var dots = document.getElementsByClassName("thumb");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>

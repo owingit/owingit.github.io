@@ -214,7 +214,7 @@ ul.posts li {
 }
 
 /* Modal Content */
-.modal-content {
+.modal-content, .modal-content2 {
   position: relative;
   align-items: center;
   justify-content: center;
@@ -244,6 +244,9 @@ ul.posts li {
 /* Hide the slides by default */
 .mySlides {
   display: none;
+}
+.mySlides2 {
+    display: none;
 }
 
 /* Next & previous buttons */
