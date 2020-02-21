@@ -12,10 +12,32 @@
 <ul class="photo-gallery" id="horizontal">
 {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
   {% for image in sorted_photos %}
-    <li>
-    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="window.open(this.src)" />
+    <li class="column">
+    	<img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="openModal(); currentSlide(forloop.index)"/>
     </li>    
   {% endfor %}
 
 </ul>
 
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
+      {% for image in sorted_photos %}
+        <div class="mySlides">
+            <img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" style="width:100%">
+        </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Thumbnail image controls -->
+    {% assign sorted_photos = site.photo_gallery | sort: "weight" %}
+      {% for image in sorted_photos %}
+         <div class="column">
+            <img src=" {{ image.image_path }}" alt="{{ image.title }}" title="{{ image.title }}" onclick="currentSlide(forloop.index)">
+         </div>
+  </div>
+</div>
