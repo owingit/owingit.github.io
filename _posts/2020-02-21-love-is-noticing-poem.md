@@ -15,4 +15,4 @@ the same fungi
 hidden in the understory.
 love is found
 in that small moment
-when you realize you’re in the same world.
+when you realize you’re in the same world
