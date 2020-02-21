@@ -64,8 +64,8 @@ ul.posts li {
 }
 
 #video_box {
-    height: 80%;
-    width: auto;
+    height: auto;
+    width: 100vw;
 }
 
 .photo-gallery, .photo-gallery li {
