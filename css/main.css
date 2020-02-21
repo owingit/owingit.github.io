@@ -262,6 +262,7 @@ ul.posts li {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  z-index: 2;
 }
 
 /* Position the "next button" to the right */
