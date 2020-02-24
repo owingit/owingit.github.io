@@ -8,7 +8,7 @@ I’ll get the paper, he says, and then put the coffee on, you can stay here in 
 The house is still, except for the vigorous sunlight streaming through the kitchen windows, filling the room with its soft, fluid gleam. On his way to the door he opens a cabinet, drags a bag of dark coffee beans to the countertop, fills the little metal kettle and sets it on the stove. Then he pirouettes, using her slippers as ice skates; he closes his eyes for a moment and imagines himself dancing, spinning infinitely in circles, like an autumn leaf spiraling to the ground. But in his dance, his fantasy, the spinning takes him forever upwards, into the sky. He aligns himself with the door. The moment passes; and with a little hop he clears the space from the kitchen to the door and pushes it open.
 The paper is in the driveway, and he’s barely on the front step before the too-snug toe of his slipper catches something unexpected and he is airborne. A little brown box where nothing should have been. He falls from his porch, once again the leaf but this time trapped by gravity, unable to imagine himself out of the cement sidewalk’s endless tug. Eyes wide open and arms flailing. The leaf has realized that it can do nothing but fall, and its dream of dancing towards the heavens has cease. This is a panicked dance. Before any other thoughts have a chance to slip through his brain he is in a heap on the ground and---
 
-"But does he ever hit the ground?“
+"But does he ever hit the ground?"
 
 Aster blinks twice and pauses, mid-sentence. His hands are high in the air, halfway through some great feat of gesticulation. The source of the query is his freckle-faced friend Jordan, who up until now has been listening to the story without interruption.
 
@@ -18,7 +18,7 @@ Aster blinks twice and pauses, mid-sentence. His hands are high in the air, half
 
 Aster pauses to consider this. He looks around the smoky dorm room: it’s around 2:30 on a Sunday night and the two of them have been hard at work on a few grams of marijuana for the past few hours, until Aster started storytelling. Jordan is sitting on his bed with his back straight against the wall, legs crossed, eyes closed, the almost perfect picture of calm. When Aster considered how ridiculous he looked, standing in the middle of the room in his plaid flannel pajama pants and penguin-themed knit hat, he felt the threads of the story he had been weaving begin to waver on the edges of his vision.
 
-"Sure, I’ve heard about Zeno, but that‘s irrelevant! "says Aster, "The point of a paradox, dude, is to confuse people, not to describe the way the world works.“ He throws his friend a look and moves to continue with the story.
+"Sure, I’ve heard about Zeno, but that‘s irrelevant!" says Aster. "The point of a paradox, dude, is to confuse people, not to describe the way the world works." He throws his friend a look and moves to continue with the story.
 
 But Jordan interrupts again. "Nah, mate. Just listen. A paradox is supposed to make you think, to pause for a second and really examine what’s being said. Think about Zeno’s dichotomy paradox: that which is in motion must reach its halfway stage before reaching its goal." Jordan opens his eyes to look at Aster. "That means he could never have hit the ground, and the morning is saved."
 
