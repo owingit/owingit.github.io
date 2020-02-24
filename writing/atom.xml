@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Owen Martin's Blog</title>
+	<title>some writing</title>
 	<link href="http://owingit.github.io/writing/atom.xml" rel="self"/>
 	<link href="http://owingit.github.io/writing"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
