@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Owen Martin's Blog</title>
-	<link href="http://owingit.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://owingit.github.io/blog"/>
+	<link href="http://owingit.github.io/writing/atom.xml" rel="self"/>
+	<link href="http://owingit.github.io/writing"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://owingit.github.io/blog</id>
+	<id>http://owingit.github.io/writing</id>
 	<author>
 		<name>Owen Martin</name>
 		<email>martin.owen22@gmail.com</email>
