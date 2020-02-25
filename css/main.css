@@ -204,9 +204,10 @@ ul.posts li {
   display: none;
   position: fixed;
   z-index: 1;
+  padding-top: 10px;
   left: 0;
   top: 0;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   overflow: auto;
   background-color: black;
@@ -220,7 +221,6 @@ ul.posts li {
   margin: auto;
   padding: 0;
   width: 100%;
-  max-width: 1200px;
 }
 
 /* The Close Button */
@@ -231,6 +231,7 @@ ul.posts li {
   right: 25px;
   font-size: 35px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .close:hover,
