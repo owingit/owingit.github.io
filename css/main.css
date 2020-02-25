@@ -295,6 +295,7 @@ ul.posts li {
   padding: 2px 16px;
   color: #f2f2f2;
   z-index: 2;
+  opacity: 0.9;
 }
 
 img.thumb, img.thumb2 {
