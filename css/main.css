@@ -291,11 +291,9 @@ ul.posts li {
 /* Caption text */
 .caption-container, .caption-container2 {
   text-align: center;
-  background-color: black;
   padding: 2px 16px;
   color: #f2f2f2;
   z-index: 2;
-  opacity: 0.9;
 }
 
 img.thumb, img.thumb2 {
