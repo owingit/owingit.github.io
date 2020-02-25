@@ -332,7 +332,7 @@ img.inner_image {
         margin-left:auto;
         margin-right:auto;
         height:auto;
-        width:100vw;
+        width:100%;
     }
 }
 
