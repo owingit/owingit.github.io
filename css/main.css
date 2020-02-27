@@ -289,7 +289,7 @@ ul.posts li {
 }
 
 /* Caption text */
-.caption-container, .caption-container2 {
+.caption-container, .caption-container2, #caption, #caption2 {
   text-align: center;
   padding: 2px 16px;
   color: white;
