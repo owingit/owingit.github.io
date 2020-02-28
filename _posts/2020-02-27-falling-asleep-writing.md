@@ -78,7 +78,7 @@ She rose from the table, slid her way across the kitchen into his arms, and kiss
 
 He set about cleaning again, going through the steps methodically, like he was a machine built for the purpose. Cleaning the house soon followed, as he worked through the living room’s dust problem before taking out the trash, sweeping the hallway, and watering the standing plants in their bedroom. Only when he was back near the bed did he see his computer again, and his whole body twitched involuntarily with the urge to write. Before he could open it and begin writing again, however, the phone rang in the other room and he scurried away to answer it.
 
-	***
+	    ***
 
 Luna looked out the bus window on the way to school. Streaming past the dirty glass was an endless line of cloud. The clouds were streaking across the sky, forming and reforming into funny shapes just for her. She fingered the ring on her left hand, the one her mom had given her, smooth and wooden and painted to have a little yellow moon smiling up at her. “Don’t you ever lose this,” her mom had said to her while slipping it on her finger for her birthday the year before. Luna had worn it ever since. If she really cleared her mind, she could still feel the hug they had shared after Luna squealed with excitement and ran into her mother’s arms. But, just like everything outside of the bus, the feeling soon passed her by and she left to go to school, old memories of her mother digesting in her mind as her father’s pancakes digested in her tummy.
 
