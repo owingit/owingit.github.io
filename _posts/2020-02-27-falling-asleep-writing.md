@@ -47,7 +47,6 @@ The wind softly whispered their names as they nestled into one another, each of 
 
 		***
 
-
 Sunlight poured onto Ana’s back the next morning through the three windows next to their bed. In front of each, as makeshift curtains, hung colorful fabric, souvenirs from their past together: a sarong from the Mediterranean, a scarf from the mountains. The walls next to the windows were plastered with their own paintings and art pieces, mostly just regular pieces of paper taped up with immense pride, and sunlight fell gently across the multitude of colors. Marco woke first, sneezing his way out of a snore and into consciousness. Ana was buried into his chest, breathing lightly. She had somehow managed to kick all the covers off and curl even closer to him in the night.
 With his free hand, he massaged her back, rubbing between her shoulders and down her spine. He did this for a long time before she woke up.
 
@@ -58,7 +57,6 @@ With his free hand, he massaged her back, rubbing between her shoulders and down
 “Only because I know you want some, too,” he said with a smile, buttoning a flannel shirt and tiptoing over for a quick peck on Ana’s forehead. Then he was away, down the stairs towards the kitchen, and Ana was the one who was alone in the brightly lit bedroom, listening to her family bang the pots and pans as she flopped back onto the pillows with a deep sigh. She hadn’t told Marco about the sensation from last night, and she didn’t know how she would approach the topic. She laid there for a little while longer, letting the sounds of the kitchen float out and wash over her for several moments, and the ringing of her daughter’s laughter made the corners of her mouth curl upwards ever so slightly. Then she got herself up, bouncing out of bed with renewed vigor, throwing on her fuzzy blue bathrobe and sashaying into the shower, unsure of the emotions she was feeling but confident enough in where they came from to let them carry her through the morning.
 
 	    ***
-
 
 Marco wiped his hands on the towel attached to the oven and set about cleaning the morning’s breakfast. He had just seen Luna off to the bus stop in front of their house, and was filling a bowl to rinse as Ana came down the stairs, ready for work, still putting one of her earrings on.
 
