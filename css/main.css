@@ -200,7 +200,7 @@ ul.posts li {
 }
 
 /* The Modal (background) */
-.modal, .modal2 {
+.modal, .pendulum_modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -214,7 +214,7 @@ ul.posts li {
 }
 
 /* Modal Content */
-.modal-content, .modal-content2 {
+.modal-content, .pendulum_modal_content {
   position: relative;
   align-items: center;
   justify-content: center;
@@ -242,10 +242,10 @@ ul.posts li {
 }
 
 /* Hide the slides by default */
-.mySlides {
+.bird_slides {
   display: none;
 }
-.mySlides2 {
+.pendulum_slides {
     display: none;
 }
 
@@ -289,14 +289,14 @@ ul.posts li {
 }
 
 /* Caption text */
-.caption-container, .caption-container2, #caption, #caption2 {
+.caption-container, .pendulum_caption_container, #caption, #pendulum_caption {
   text-align: center;
   padding: 2px 16px;
   color: white;
   z-index: 2;
 }
 
-img.thumb, img.thumb2 {
+img.thumb, img.pendulum_thumb {
   max-width: 100%;
   height: auto;
   opacity: 0.6;
