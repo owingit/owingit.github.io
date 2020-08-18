@@ -126,7 +126,7 @@ ul.posts li {
 
 .js-nametag{
     opacity: 0;
-    animation: fade linear infinite 35s;
+    animation: fade linear infinite 40s;
     position: absolute;
     text-align: center;
     justify-content: center;
@@ -161,6 +161,10 @@ ul.posts li {
 
 .js-nametag:nth-child(7) {
     animation-delay: 30s;
+}
+
+.js-nametag:nth-child(8) {
+  animation-delay: 35s;
 }
 
 
