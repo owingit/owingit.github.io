@@ -200,19 +200,6 @@
     function currentSlidePendulums(n) {
       showPendulumSlides(slideIndex = n);
     }
-    document.onkeypress = checkKey2;
-
-    function checkKey2(e) {
-
-        e = e || window.event;
-        if (e.keyCode == '37') {
-          plusPendulumSlides(-1);
-        }
-        else if (e.keyCode == '39') {
-          plusPendulumSlides(1);
-        }
-
-    }
 
     function showPendulumSlides(n) {
       var i;
