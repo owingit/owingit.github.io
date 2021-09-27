@@ -200,9 +200,9 @@
     function currentSlidePendulums(n) {
       showPendulumSlides(slideIndex = n);
     }
-    document.onkeydown = checkKey;
+    document.onkeypress = checkKey2;
 
-    function checkKey(e) {
+    function checkKey2(e) {
 
         e = e || window.event;
         if (e.keyCode == '37') {
