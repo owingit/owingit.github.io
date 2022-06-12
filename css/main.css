@@ -2,12 +2,12 @@
 
 
 body {
-    font-family: 'Dosis';
+    font-family: "Dosis";
     margin: auto;
     width: 80%;
 }
 nav ul, footer ul {
-    font-family: 'Dosis';
+    font-family: "Dosis";
     font-size: 20px;
     line-height: 21px;
     color: rgb(48, 48, 48);
@@ -31,7 +31,7 @@ embed {
 }
 h1 {
     font-size: 3em;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: "Dosis";
 }
 p {
     font-size: 1.5em;
@@ -45,7 +45,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: "Dosis";
     font-size: 1.5em;
 }
 
