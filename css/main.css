@@ -2,13 +2,13 @@
 
 
 body {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: 'Dosis';
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 nav ul, footer ul {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-family: 'Dosis';
+    font-size: 20px;
     line-height: 21px;
     color: rgb(48, 48, 48);
     text-align: center
