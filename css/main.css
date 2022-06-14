@@ -68,14 +68,6 @@ ul.posts li {
     overflow-y:hidden;
 }
 
-#video_box {
-    height: auto;
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-
 .photo-gallery, .photo-gallery li {
     list-style: none;
     padding-top: 10px;
