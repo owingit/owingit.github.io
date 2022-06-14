@@ -24,22 +24,22 @@
   <span class="close cursor" onclick="closeNSTModal()">&times;</span>
   <div class="nst_modal_content">
     <div class="nst_slides">
-      <div class="numbertext">1 / 12</div>
+      <div class="numbertext">1 / 4</div>
       <img src="../images/nst/vibrant_puffin.png" class="inner_image">
     </div>
 
     <div class="nst_slides">
-      <div class="numbertext">2 / 12</div>
+      <div class="numbertext">2 / 4</div>
       <img src="../images/nst/stellar_stellars.png" class="inner_image">
     </div>
 
     <div class="nst_slides">
-      <div class="numbertext">3 / 12</div>
+      <div class="numbertext">3 / 4</div>
       <img src="../images/nst/psych_bee_eater.png" class="inner_image">
     </div>
 
     <div class="nst_slides">
-      <div class="numbertext">4 / 12</div>
+      <div class="numbertext">4 / 4</div>
       <img src="../images/nst/colorful_owl.png" class="inner_image">
     </div>
     <!-- Next/previous controls -->
@@ -80,8 +80,8 @@
     }
 
     // Close the Modal
-    function closePendulumModal() {
-      document.getElementById("pendulum_modal_id").style.display = "none";
+    function closeNSTModal() {
+      document.getElementById("nst_modal_id").style.display = "none";
     }
 
     var nstSlideIndex = 1;
@@ -109,8 +109,8 @@
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
+      slides[nstSlideIndex-1].style.display = "block";
+      dots[nstSlideIndex-1].className += " active";
+      captionText.innerHTML = dots[nstSlideIndex-1].alt;
     }
 </script>
