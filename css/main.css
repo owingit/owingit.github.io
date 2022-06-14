@@ -5,6 +5,7 @@ body {
     font-family: "Dosis";
     margin: auto;
     width: 80%;
+    height: 80%
 }
 nav ul, footer ul {
     font-family: "Dosis";
@@ -15,7 +16,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 a {
     text-decoration: none;
