@@ -84,58 +84,40 @@
 			</script>
 			<script>
 				document.addEventListener('DOMContentLoaded', function() {
-				  const body = document.body;
-				  const darkModeToggleDesktop = document.getElementById('darkModeToggle');
-				  const darkModeToggleMobile = document.getElementById('darkModeToggleMobile');
-  
-				  function enableDarkMode() {
+				const body = document.body;
+				const darkModeCheckbox = document.getElementById('darkModeCheckbox'); // Use a single ID
+
+				function enableDarkMode() {
 					body.classList.add('dark-mode');
 					localStorage.setItem('theme', 'dark');
-					if (darkModeToggleDesktop) {
-					  darkModeToggleDesktop.textContent = 'Disable Dark Mode';
+					if (darkModeCheckbox) {
+					darkModeCheckbox.checked = true;
 					}
-					if (darkModeToggleMobile) {
-					  darkModeToggleMobile.textContent = 'Disable Dark Mode';
-					}
-				  }
-  
-				  function disableDarkMode() {
+				}
+
+				function disableDarkMode() {
 					body.classList.remove('dark-mode');
 					localStorage.setItem('theme', 'light');
-					if (darkModeToggleDesktop) {
-					  darkModeToggleDesktop.textContent = 'Enable Dark Mode';
+					if (darkModeCheckbox) {
+					darkModeCheckbox.checked = false;
 					}
-					if (darkModeToggleMobile) {
-					  darkModeToggleMobile.textContent = 'Enable Dark Mode';
-					}
-				  }
-  
-				  // Check for saved preference on page load
-				  if (localStorage.getItem('theme') === 'dark') {
+				}
+
+				// Check for saved preference on page load
+				if (localStorage.getItem('theme') === 'dark') {
 					enableDarkMode();
-				  }
-  
-				  // Event listeners for desktop button (if it exists on the page)
-				  if (darkModeToggleDesktop) {
-					darkModeToggleDesktop.addEventListener('click', () => {
-					  if (body.classList.contains('dark-mode')) {
-						disableDarkMode();
-					  } else {
+				}
+
+				// Event listener for the checkbox
+				if (darkModeCheckbox) {
+					darkModeCheckbox.addEventListener('change', () => {
+					if (darkModeCheckbox.checked) {
 						enableDarkMode();
-					  }
-					});
-				  }
-  
-				  // Event listeners for mobile button (if it exists on the page)
-				  if (darkModeToggleMobile) {
-					darkModeToggleMobile.addEventListener('click', () => {
-					  if (body.classList.contains('dark-mode')) {
+					} else {
 						disableDarkMode();
-					  } else {
-						enableDarkMode();
-					  }
+					}
 					});
-				  }
+				}
 				});
 			  </script>
 		</body>
