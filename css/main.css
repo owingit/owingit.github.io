@@ -24,7 +24,6 @@ nav ul, footer ul {
     text-align: center
 }
 
-
 .dark-mode nav ul,
 .dark-mode footer ul {
     color: #a9a9a9;
@@ -160,9 +159,6 @@ ul.posts li {
   position: absolute;
   font-size: 1.5rem;
   text-align: center;
-}
-.dark-mode #myName {
-  color: white;
 }
 
 .js-nametag{
