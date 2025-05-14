@@ -366,3 +366,88 @@ img.inner_image {
   left: 150px;
   top: 350px;
 }*/
+
+/* Styles for the new Bio Section */ 
+.bio-section {
+  padding: 50px 20px; /* Vertical and horizontal padding */
+  /* background-color: #f8f8f8; */ /* Optional: light background to separate from video */
+  clear: both; /* Ensures it appears below any floated elements if any */
+}
+
+.bio-image {
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures image content covers the area well */
+  display: block;      /* Helps with margin auto centering if not in flex */
+}
+
+.bio-text-container {
+  /* General styling for the text wrapper */
+}
+
+.bio-heading { /* For "About Me" on desktop */
+  font-size: 2.2em;
+  font-family: "Dosis", sans-serif;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.bio-main-name { /* For "Owen Martin" on mobile */
+  font-size: 2.5em;
+  font-family: "Dosis", sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bio-text {
+  font-size: 1.1em;
+  font-family: "Dosis", sans-serif;
+  line-height: 1.7;
+  color: #444; /* Slightly adjusted for readability */
+}
+
+/* --- Desktop Specific Styles for Bio Section --- */
+.content-desktop .bio-section {
+  max-width: 900px;   /* Limits the width of the bio content area */
+  margin: 0 auto;     /* Centers the bio section on the page */
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  gap: 30px;          /* Space between image and text block */
+}
+
+.content-desktop .bio-image {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.content-desktop .bio-text-container {
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* --- Mobile Specific Styles for Bio Section --- */
+.content-mobile .bio-section {
+  display: flex;
+  flex-direction: column; /* Stack image, name, and bio vertically */
+  align-items: center;   /* Center items horizontally */
+  text-align: center;
+  width: 90%;            /* Use 90% of mobile screen width */
+  max-width: 400px;      /* But not more than 400px */
+  margin: 0 auto;        /* Center within .content-mobile (which is already centered) */
+}
+
+.content-mobile .bio-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px; /* Space below image before name/text */
+}
+
+.content-mobile .bio-text-container {
+  text-align: center;
+}
+
+.content-mobile .bio-text {
+  font-size: 1em;
+}
