@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:700,400);
 
 body {
-    font-family: "Dosis";
+    font-family: "Inter";
     margin: auto;
     width: 80%;
     height: 80%;
@@ -17,7 +17,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family: "Dosis";
+    font-family: "Inter";
     font-size: 20px;
     line-height: 21px;
     color: rgb(48, 48, 48);
@@ -51,7 +51,7 @@ embed {
 }
 h1 {
     font-size: 3em;
-    font-family: "Dosis";
+    font-family: "Inter";
 }
 .dark-mode h1 {
   color: white;
@@ -75,7 +75,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-family: "Dosis";
+    font-family: "Inter";
     font-size: 1.5em;
 }
 .dark-mode ul.posts {
@@ -422,7 +422,7 @@ img.inner_image {
 
 .bio-heading { /* For "About Me" on desktop */
   font-size: 2.2em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Inter";
   color: #333;
   margin-top: 0;
   margin-bottom: 20px;
@@ -434,7 +434,7 @@ img.inner_image {
 
 .bio-main-name { /* For "Owen Martin" on mobile */
   font-size: 2.5em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Inter";
   color: #333;
   margin-bottom: 20px;
   text-align: center;
@@ -446,7 +446,7 @@ img.inner_image {
 
 .bio-text {
   font-size: 1.1em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Inter";
   line-height: 1.7;
   color: #444; /* Slightly adjusted for readability */
 }
