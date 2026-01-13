@@ -55,6 +55,28 @@ nav ul, footer ul {
     text-align: center
 }
 
+/* Ensure the nav toggle aligns nicely with other nav items */
+#nav-dark-toggle { display: inline-block; vertical-align: middle; margin-left: 6px; }
+#nav-dark-toggle .dark-mode-toggle-container { margin: 0; }
+
+/* Icon-based toggle styles */
+.dark-mode-switch { display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 4px; }
+.dark-mode-switch input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; cursor: pointer; }
+.dark-mode-switch .icon { display: inline-block; color: #666; transition: transform 160ms ease, color 160ms ease, opacity 160ms ease; }
+.dark-mode-switch .icon { width: 18px; height: 18px; }
+.dark-mode-switch .icon-sun { opacity: 1; transform: rotate(0deg) scale(1); }
+.dark-mode-switch .icon-moon { opacity: 0; transform: rotate(-20deg) scale(0.8); }
+.dark-mode-switch:hover .icon { color: #333; }
+
+/* When checked: show moon, hide sun */
+.dark-mode-switch input:checked + .icon-sun,
+.dark-mode-switch input:checked ~ .icon-sun { opacity: 0; transform: rotate(20deg) scale(0.8); }
+.dark-mode-switch input:checked + .icon-moon,
+.dark-mode-switch input:checked ~ .icon-moon { opacity: 1; transform: rotate(0deg) scale(1); }
+
+/* Make icons lighter in dark mode */
+.dark-mode .dark-mode-switch .icon { color: #e6e6e6; }
+
 .dark-mode nav ul,
 .dark-mode footer ul {
     color: #a9a9a9;
@@ -197,6 +219,14 @@ ul.posts li {
   position: absolute;
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* Keep the name overlay text black even in dark mode so it remains visible against the video */
+#myName, #myName * {
+  color: #0b0b0b;
+}
+.dark-mode #myName, .dark-mode #myName * {
+  color: #0b0b0b !important;
 }
 
 .js-nametag{
@@ -529,6 +559,11 @@ img.inner_image {
   width: 150px;
   height: 150px;
   margin-bottom: 20px; /* Space below image before name/text */
+}
+
+/* Ensure the face image shows the top of the photo on mobile (avoid cutting forehead) */
+.content-mobile .bio-image {
+  object-position: top center;
 }
 
 .content-mobile .bio-text-container {
