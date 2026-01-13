@@ -83,42 +83,41 @@
 					}
 			</script>
 			<script>
-				document.addEventListener('DOMContentLoaded', function() {
-				const body = document.body;
-				const darkModeCheckbox = document.getElementById('darkModeCheckbox'); // Use a single ID
+			// Unified dark-mode handler: looks for toggle checkboxes in pages and applies a
+			// `dark-mode` class on the root element. Preference is persisted in localStorage.
+			(function() {
+			  const STORAGE_KEY = 'site-dark-mode';
+			  const checkboxIds = ['darkModeCheckbox', 'darkModeCheckboxMobile'];
 
-				function enableDarkMode() {
-					body.classList.add('dark-mode');
-					localStorage.setItem('theme', 'dark');
-					if (darkModeCheckbox) {
-					darkModeCheckbox.checked = true;
-					}
-				}
+			  function applyDarkMode(enabled) {
+			    if (enabled) document.documentElement.classList.add('dark-mode');
+			    else document.documentElement.classList.remove('dark-mode');
+			    checkboxIds.forEach(id => {
+			      const el = document.getElementById(id);
+			      if (el) el.checked = enabled;
+			    });
+			  }
 
-				function disableDarkMode() {
-					body.classList.remove('dark-mode');
-					localStorage.setItem('theme', 'light');
-					if (darkModeCheckbox) {
-					darkModeCheckbox.checked = false;
-					}
-				}
+			  function init() {
+			    const saved = localStorage.getItem(STORAGE_KEY);
+			    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			    const enabled = saved === null ? prefersDark : saved === 'true';
+			    applyDarkMode(enabled);
 
-				// Check for saved preference on page load
-				if (localStorage.getItem('theme') === 'dark') {
-					enableDarkMode();
-				}
+			    checkboxIds.forEach(id => {
+			      const el = document.getElementById(id);
+			      if (!el) return;
+			      el.addEventListener('change', (e) => {
+			        const now = !!e.target.checked;
+			        localStorage.setItem(STORAGE_KEY, now.toString());
+			        applyDarkMode(now);
+			      });
+			    });
+			  }
 
-				// Event listener for the checkbox
-				if (darkModeCheckbox) {
-					darkModeCheckbox.addEventListener('change', () => {
-					if (darkModeCheckbox.checked) {
-						enableDarkMode();
-					} else {
-						disableDarkMode();
-					}
-					});
-				}
-				});
-			  </script>
+			  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+			  else init();
+			})();
+			</script>
 		</body>
 	</html>

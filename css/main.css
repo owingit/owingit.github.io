@@ -2,6 +2,19 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:700,400);
 
 
+/* Dark mode toggle switch styles */
+.dark-mode-toggle-container { margin-top: 0.75rem; }
+.dark-mode-switch { position: relative; display: inline-block; width: 50px; height: 28px; }
+.dark-mode-switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .3s; border-radius: 34px; }
+.slider:before { position: absolute; content: ""; height: 22px; width: 22px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+.dark-mode-switch input:checked + .slider { background-color: #4a90e2; }
+.dark-mode-switch input:focus + .slider { box-shadow: 0 0 1px #4a90e2; }
+.dark-mode-switch input:checked + .slider:before { transform: translateX(22px); }
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+
+
 body {
     font-family: "Inter";
     margin: auto;
@@ -419,6 +432,7 @@ img.inner_image {
 
 .bio-text-container {
   /* General styling for the text wrapper */
+  padding: 0;
 }
 
 .bio-heading { /* For "About Me" on desktop */
