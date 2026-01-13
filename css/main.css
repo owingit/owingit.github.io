@@ -60,6 +60,13 @@ nav ul, footer ul {
     color: #a9a9a9;
 }
 
+/* Make small nav/footer icons visible in dark mode by inverting/brightening them. */
+.dark-mode nav img,
+.dark-mode footer img {
+  filter: invert(1) brightness(2) saturate(1.1);
+  transition: filter 160ms linear;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 10px;
