@@ -2,6 +2,7 @@
 layout: post
 title: Something about writing
 date: 2018-08-03
+archive: true
 ---
 
 I think what I try to do when writing is bottle up a little bit of the wonder 

@@ -2,6 +2,7 @@
 layout: post
 title: the jungle
 date: 2020-05-25
+archive: true
 ---
 
 When I first start to write I find myself waving a machete inches from the edge of my nose. There is a thicket of jungle plants in between where I sit now and where I am going. My fingers are arched at the keys of my computer or wound tightly about my favorite pen, and each new stroke is a swipe of the machete through the plants and into some new space. 

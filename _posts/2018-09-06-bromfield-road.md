@@ -2,6 +2,7 @@
 layout: post
 title: Bromfield Road
 date: 2018-09-06
+archive: true
 ---
 
 Adjacent Tufts University is a road named Bromfield. The houses lining it are colorful and diverse, with streetside gardens of flowers and tomatoes, towering trees in the backyards, and plenty of nooks and crannies for nesting cardinals. Hidden inside the buildings are the traces of a galaxy of experience: the porches and kitchens and bedrooms and sitting areas are covered in memories, friendships, laughter, melancholy, and love. At 102, the ghostly afterimage of house plants and freshly cooked vegetables remains even after the good people tending them have long gone. If you walk into the mudroom of the house numbered 65, the sound of laughter and shouting of friends putting balls in cups, singing silly songs, and dancing upstairs is barely audible above the silence of the empty house. The next door residence still smells thickly of good Maine marijuana and late night pizzas from countless nightsfull of nothing, some time long ago. And warm, loving tendrils of spiritual acceptance invisibly sprout from the floors of the house at 86, thickly filling the hallways with plants that bloom when you touch them and produce petals as smooth as caffelatte skin. 

@@ -2,6 +2,7 @@
 layout: post
 title: beekeeping
 date: 2020-09-2
+archive: true
 ---
 
 The morning stretched, and yawned. In all corners of the city people put on their shoes and skirts and masks and tentatively left their houses, looking for the life they'd left behind. Looking for the life they'd promised themselves, some time ago. Cars followed their weighted paths throughout the city. The speed of encounters in the system quickened. And O set off on his bicycle towards the university. 

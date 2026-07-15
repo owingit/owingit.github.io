@@ -2,6 +2,7 @@
 layout: post
 title: Love is Noticing (poem)
 date: 2020-02-21
+archive: true
 ---
 
 love is noticing

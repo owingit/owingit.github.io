@@ -2,6 +2,7 @@
 layout: post
 title: Something in your brain
 date: 2020-03-09
+archive: true
 ---
 
 "For weeks I haven't been able to sleep, for whenever I lay myself in bed, the consistent accompanying voice in my head is joined by many others. Myriad voices, loud and quiet and insightful and inane all at once. They talk so much. Like this:

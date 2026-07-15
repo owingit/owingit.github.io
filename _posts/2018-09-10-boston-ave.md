@@ -2,6 +2,7 @@
 layout: post
 title: Boston Ave
 date: 2018-09-10
+archive: true
 ---
 
 "Hey, you! Party at 298 tonight. You gonna be there?"

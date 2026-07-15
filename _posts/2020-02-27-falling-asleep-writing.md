@@ -2,6 +2,7 @@
 layout: post
 title: Forming and Reforming
 date: 2020-02-27
+archive: true
 ---
 The only other sound, besides his computer whirring and the click-clack of the mechanical keys, was the intermittent patting of raindrops upon the tin roof. It was dark in the third-story bedroom where he laid, with his chin buried in his chest, legs intertwined with those of his wife Ana, who laid next to him. She was on the edges of sleep. Her eyes were closed but dancing, taking in the little sounds of the room and transforming them into her own magical landscapes as she drifted off. Her hand reached out for his arm and squeezed it gently. He took his eyes off the screen for a moment and rubbed her head. The raindrops continued to scatter through the darkness, like his thoughts, streaming into each other as they ran down the roof.
 

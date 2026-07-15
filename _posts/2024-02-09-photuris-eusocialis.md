@@ -2,6 +2,7 @@
 layout: post
 title: photuris eusocialis
 date: 2024-02-09
+archive: true
 ---
 In the dense forests of a land lost to time, a mesmerizing firefly species known as _Photuris eusocialis_ once thrived. Their society, a delicate web of interdependent interactions, functioned through a highly evolved caste system, where each group communicated vital information to the others through distinct flash patterns. It was a society of light, long before humans conquered the flame and put lightning in a bottle, and it was a society of synchronized harmony.
 

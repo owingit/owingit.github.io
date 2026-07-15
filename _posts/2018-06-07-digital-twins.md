@@ -2,6 +2,7 @@
 layout: post
 title: Digital Twins
 date: 2018-06-07
+archive: true
 ---
 
 I'd love to enter a mutualistic relationship with myself. 

@@ -2,6 +2,7 @@
 layout: post
 title: Excerpt from 'One Long Dream', Ch. 12
 date: 2020-02-21
+archive: true
 ---
 
 <h2>To Behave The Way Everyone Does</h2>

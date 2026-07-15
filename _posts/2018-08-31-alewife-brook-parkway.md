@@ -2,6 +2,7 @@
 layout: post
 title: Alewife Brook Parkway
 date: 2018-08-31
+archive: true
 ---
 
 Every day for a year I've made the turn from Mass Ave onto this little winding road as I head to work. Usually there's a line of traffic waiting to make the same left, each car a little more grumpy than the last. I perfected the art of sneaking up in the right lane and swiftly taking the left right as the arrow changed to green so I could dodge the backup and greet Alewife Brook Parkway without the surrounding crowd. I love this road, and I'll miss it when I'm gone. To one side is a strip of forest, sandwiched between the road and the river and always full of squirrels to watch out for. In the evenings, sunlight dapples through the trees and speckles the road with little sun spots that I find comforting. In the mornings the colors are crisp and set against a calm grey-blue sky, at least in the summertime. 

@@ -2,6 +2,7 @@
 layout: post
 title: Raising a Computational Mind
 date: 2018-09-21
+archive: true
 ---
 
 Training a computational mind is akin to raising a child. Both challenges face a similar value attribution problem, in which you, the parent, the programmer, must decide which information you want to expose to your progeny. Successful parenting often employs shared creative experiences, like art-making and reading aloud from good books; balanced against a healthy dose of socialization, desirable traits like self-confidence, individuality, honesty,  and dedication can easily be cultivated and raised. When done poorly, negative traits can arise, like jealousy, greed, or disrespect. AI researchers face the same dilemma: how can they get their artificially intelligent programs to represent the right ethical values in their ceaseless decision making? What kind of problems do you want your artificially created child to solve, and how?

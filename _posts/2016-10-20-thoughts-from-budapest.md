@@ -2,6 +2,7 @@
 layout: post
 title: Thoughts from Budapest
 date: 2016-10-20
+archive: true
 ---
 
 Ciao amici!

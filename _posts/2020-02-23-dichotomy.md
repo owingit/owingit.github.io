@@ -2,6 +2,7 @@
 layout: post
 title: Dichotomy
 date: 2020-02-23
+archive: true
 ---
 
 I’ll get the paper, he says, and then put the coffee on, you can stay here in bed a little while longer. And with languid movements he slithers from beneath the covers and into a pair of slippers. Her slippers. His toes are too snug and his heels are hanging over the back, but he has practiced this shuffle many times and knows just the way to effectively wedge his feet into the opening.

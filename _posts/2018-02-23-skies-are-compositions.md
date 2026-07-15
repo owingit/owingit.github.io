@@ -2,6 +2,7 @@
 layout: post
 title: Skies are compositions
 date: 2018-02-23
+archive: true
 ---
 
 Deep in his commute to work O takes his eyes off the license plate in from of his car and drags his gaze skyward. It’s the end of a long Wednesday and he left work late, at just the wrong time: every other commuter in Boston seems to be on the road right now, attempting to return home. His car is at an absolute standstill amidst the crowd. The now familiar cacophony of horns, rumbling engines, and thickly accented heckling surrounds him. But his eyes have seen something. There is only a small swath of space at the top of his windshield through which the sky is visible, but as soon as he finds it with his eyes he is transfixed.

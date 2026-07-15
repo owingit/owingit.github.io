@@ -1,12 +1,25 @@
 ---
 layout: default
-title: om - writing
+title: om - words
 ---
-	<h1 style="text-align: center">{{ page.title }}</h1>
+	<h1 style="text-align: center">om - words</h1>
 	<h4>this is a small subset of random writing. it comprises poems, short stories and essays, chapters from longer work, fiction, nonfiction...please read and enjoy</h4>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
+	{% assign words = site.posts | where_exp: "post", "post.archive != true" %}
+	{% assign archive = site.posts | where_exp: "post", "post.archive == true" %}
+
+	<ul class="posts">
+	  {% for post in words %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% else %}
+	    <li class="posts-empty">nothing new here yet — have a look through the archive below.</li>
+	  {% endfor %}
+	</ul>
+
+	<h1 style="text-align: center">om - words archive</h1>
+	<h4>older work, kept around for posterity</h4>
+	<ul class="posts">
+	  {% for post in archive %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
