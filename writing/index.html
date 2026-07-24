@@ -3,7 +3,7 @@ layout: default
 title: om - words
 ---
 	<h1 style="text-align: center">om - words</h1>
-	<h4>this is a small subset of random writing. it comprises poems, short stories and essays, chapters from longer work, fiction, nonfiction...please read and enjoy</h4>
+	<h4>this is an attempt to share more of my writing, whether finished or in progress, whether astute or rambling, whether personal or investigative.</h4>
 
 	{% assign words = site.posts | where_exp: "post", "post.archive != true" %}
 	{% assign archive = site.posts | where_exp: "post", "post.archive == true" %}
@@ -17,7 +17,7 @@ title: om - words
 	</ul>
 
 	<h1 style="text-align: center">om - words archive</h1>
-	<h4>older work, kept around for posterity</h4>
+	<h4>this is a small subset of random writing. it comprises poems, short stories and essays, chapters from longer work, fiction, nonfiction...please read and enjoy</h4>
 	<ul class="posts">
 	  {% for post in archive %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
